@@ -1,7 +1,7 @@
 import cohere  # type: ignore
 
 # Initialize Cohere client with your API key
-co = cohere.Client('2id2UIjBoWXkB2qLrLix0brN1mw0GDzSiF3vmdeC')  # Replace with your actual key
+co = cohere.Client('your_api_key')  # Replace with your actual key
 
 # Ask user for their shopping preferences
 shopping_preference = input("What are you looking to buy? ")
